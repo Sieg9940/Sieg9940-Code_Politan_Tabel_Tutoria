@@ -1,0 +1,30 @@
+.mark{
+    border: 5px solid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.bob{
+    /* border: 5px solid; */
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+div{
+    
+    width: 300px;
+    top:   25px;
+    bottom: 25px;
+    border-style: dotted;
+    border-top-style: double;
+    border-right-style: groove;
+    border-bottom-style: ridge;
+    border-left: inset;
+    border-width: 10px 5px 10px 10px; 
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-color: red;
+}
+/* border merupakan garis tepi pada sebuah tulisan , khususnya pada div
+dimana pada div tersebut termuat banyak style border  / garis tepi
+sesuai perintah yang ada di CSS */

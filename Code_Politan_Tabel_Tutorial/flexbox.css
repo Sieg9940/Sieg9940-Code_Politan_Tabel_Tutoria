@@ -1,0 +1,17 @@
+section{
+    margin:10px 20px 15px 10px;
+    flex-direction: row-reverse;
+    border-style: groove;
+    border-color: aquamarine;
+    color: black;
+    font: 200;
+}
+div{
+    margin: 10px 20px 15px 10px;
+    flex-direction: row-reverse;
+    font: 200;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    border-style: groove;
+    border-color: aquamarine;
+}

@@ -1,0 +1,33 @@
+*{
+    background-color:#40aac7 ;
+}
+h1,h2,h3{
+color: blue;
+font-size: medium;
+font-family: 'Times New Roman', Times, serif;
+}
+p,li{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    ;
+}
+#Text1{
+    color: red;
+}
+#Text4{
+    color: palevioletred;
+}
+.mark{
+    /* font-size: xx-large; */
+    background-color: azure;
+}
+
+/* selector merupakan tanda html ataupun element dari css itu sendiri
+dimana selector merupakan tanda seperti h1,h2,h3 ,p ataupun li yang kemudian
+di ikuti dengan tanda kurawal atau {} yang kemudian di isi dengan perintah
+atau command css untuk menghiasinya*/
+/* penggunaan tanda #Text1 ataupun #Text4 merupakan
+tanda untuk memanggil atribute id dari span 
+ataupun text yang ingin di panggil */
+/* fungsi dari .mark merupakan class selector , fungsi dari tag ini
+adalah untuk menandai suatu text ataupun paragraf yang di maksud.  */

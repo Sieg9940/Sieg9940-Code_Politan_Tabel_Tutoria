@@ -1,0 +1,39 @@
+
+h1,h2,h3{ 
+    background-color: yellow; 
+}  
+/* p{   */
+    /* background-color: red; */
+/* }  */
+button{
+    background-color: aquamarine;
+}
+a+button{
+    color: royalblue;
+}
+/* a+Button merupakan Adjacent dimana fungsi dari Adjacent  */
+/* .Roger>p{  */
+     /* background-color: royalblue;  */
+/* }  */
+/* .Roger>p merupakan contoh Descendant */
+/* .Hilman>p{ */
+    /* background-color: goldenrod; */
+/* } */
+/* .Jeff>p{ */
+    /* background-color: orangered; */
+/* } */
+section button:hover{ 
+     color: royalblue; 
+ } *
+.Roger::first-line{
+    font-size: xx-large;
+}
+.Hilman::first-line{
+    font-size: xx-large;
+}
+.Jeff::first-line{
+    font-size:xx-large ;
+}
+p::marker{
+    color: blueviolet;
+}

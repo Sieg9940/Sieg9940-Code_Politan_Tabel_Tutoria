@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+}
+#container{
+    background-color: darkcyan;
+    width: 90%;
+    /* height: 500px; */
+    margin: 0 auto;
+    border: 5px solid rgb(40, 40, 134);
+    display: flex;
+    flex-wrap: wrap;
+     /*membungkus content box di dalam container  */
+    flex-direction: row-reverse;
+    /* flex-direction di gunakan untuk mengatur pada garis vertikal dan horizon */
+    flex-direction: row;
+    /* justify-items: flex-start; */
+    justify-content: flex-start;
+    /*justify-content di gunakan untuk mengatur text atau content  */
+    align-items:flex-start;
+    /* align-items di gunakan untuk mengatur area vertikal */
+}
+#container div{
+    width: 200px;
+    height: 100px;
+    flex-basis: 400px;
+    /* flex-basis memeberikan ukuran yang flexibel , kecuali pada
+    ukuran box-sizing / kotak yang sudah di tentukan ukurannya*/
+    
+}
+/* div:nth-child(1){ */
+    /* align-self: flex-start; */
+    /* flex-grow: 1; */
+    /* flex-grow memberikan ukuran yang sama panjang di kedua ruas
+    kanan dan kiri  */
+    /* flex-shrink: 1.5; */
+    /* flex-shrink mengecilkan ukuran pada box yang di pilih 
+    flex shrink hanya akan terlihat jika flex-wrap di matikan */   
+/* } */
+/* div:nth-child(2){ */
+    /* align-self: flex-start; */
+/* } */
+/* div:nth-child(2){
+    align-self: flex-end;
+}
+div:nth-child(3){
+    align-self: stretch;
+} */ 
+/* div:nth-child(6){ */
+    /* color: red; */
+/* } */
+
+/* penggunaan div:nth-child(1,2,3) di gunakan untuk mengatur
+secara mandiri dari masing masing div yang memuat element di dalamnya */

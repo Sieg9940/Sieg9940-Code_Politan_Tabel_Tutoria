@@ -1,0 +1,42 @@
+h1{
+    font-size: xx-large;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;    
+}
+/* #container{
+    background-color: rgba(0, 0, 255, 0.649);
+    width: 90%;
+    height: 900px;
+    margin: 0 auto;
+    border: 5px solid rgb(2, 19, 30); 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#container div{
+    width: 300px;
+    height: 300px;
+    align-items: baseline;
+    font-size: large;
+} */
+main{
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+}
+/* fungsi main adalah untuk memilih secara khusus terhadap item atau tulisan yang
+ingin di pilih dengan kat alain tag ini merupakan main content of document */
+main .sidebar{
+    background-color: rgb(34, 81, 167);
+    flex: 1 300px;
+    border: 2px solid;
+    /* flex:1 300px; merupakan flex yang memiliki 2 value atau nilai yakni flex-grow dan flex-basis
+    */
+}
+main .content{
+    background-color: rgb(148, 85, 208);
+    flex: 2 800px;
+    border: 2px solid;
+}

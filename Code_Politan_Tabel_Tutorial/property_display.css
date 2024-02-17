@@ -1,0 +1,20 @@
+h1{
+    background-color: aquamarine;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    /* display: none; */
+}
+/* untuk h1 secara default merupakan block , dimana block memiliki
+element yang bisa di tambah atau di ubah elemennta sehingga berganti
+height , padding , margin , widht dll  */
+
+span{
+    background-color: aquamarine;
+    border: 1px solid black;
+    /* padding: 100px; */
+    /* margin: 10px; */
+}
+/* span secara default merupakan element inline , dimana element
+inline ini tidak bisa di tambahkan element lainnya agar berganti
+lebarnya (width) */

@@ -1,0 +1,27 @@
+div{
+    width: 300px;
+    margin: 20px;
+}
+div{
+    border-style: dotted dashed solid double;
+    border-width: 5px 10px 15px  20px;
+    border-color: aqua;
+}
+div{
+    /* padding-top: 10px; */
+    /* padding-right: 40px; */
+    /* padding-bottom: 10px; */
+    /* padding-left: 40px; */
+    /* jika yang di atas tulisan ini merupakan versi panjang dari padding */
+    padding:10px 100px 40px;
+/* short syntax yakni padding:10px 100px 40px;  */
+}
+div{
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+    margin: 50px 50px 50px 25px;
+    /* short sytax yakni margin 50px 50px 50px 25px */
+}
+/* padding merupakan garis terdalam setelah border */
